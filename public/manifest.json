@@ -1,0 +1,88 @@
+{
+  "name": "Jakbar Explore - Wisata & Kuliner Jakarta Barat",
+  "short_name": "Jakbar Explore",
+  "description": "Panduan lengkap wisata dan kuliner terlengkap di Jakarta Barat",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "lang": "id",
+  "dir": "ltr",
+  "background_color": "#ffffff",
+  "theme_color": "#0d1117",
+  "orientation": "portrait-primary",
+  "categories": ["travel", "food", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-mobile.jpg",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-desktop.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kuliner Terpopuler",
+      "short_name": "Kuliner",
+      "description": "Jelajahi kuliner terbaik Jakarta Barat",
+      "url": "/kuliner",
+      "icons": [
+        {
+          "src": "/images/icon-kuliner.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Wisata Terbaik",
+      "short_name": "Wisata",
+      "description": "Temukan destinasi wisata terbaik",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/images/icon-wisata.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
